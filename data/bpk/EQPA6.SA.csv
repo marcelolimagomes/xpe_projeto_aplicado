@@ -1,0 +1,3 @@
+open_time;ticker;open;high;low;close;adj_close;volume;ema_200p;ema_200p_diff;s_open_time;type;ema_adj_close_200p;ema_adj_close_200p_diff;ema_close_200p;ema_close_200p_diff
+1646661600000;EQPA6.SA;10.69;10.69;10.68;10.68;10.68;0;;;;stocks;;;;
+1695830400000;EQPA6.SA;10.05;10.05;10.05;10.05;10.05;0;;;2023-09-27 13:00:00-03:00;stocks;;;;

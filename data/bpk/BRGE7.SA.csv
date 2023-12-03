@@ -1,0 +1,4 @@
+open_time;ticker;open;high;low;close;adj_close;volume;ema_200p;ema_200p_diff;s_open_time;type;ema_adj_close_200p;ema_adj_close_200p_diff;ema_close_200p;ema_close_200p_diff
+1684508400000;BRGE7.SA;8.01;8.01;8.01;8.01;8.01;100;;;;stocks;;;;
+1684519200000;BRGE7.SA;9.29;9.29;9.29;9.29;9.29;100;;;;stocks;;;;
+1693576800000;BRGE7.SA;9.27;9.29;9.27;9.27;9.27;0;;;2023-09-01 11:00:00-03:00;stocks;;;;

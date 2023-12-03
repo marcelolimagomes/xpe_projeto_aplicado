@@ -1,0 +1,4 @@
+open_time;ticker;open;high;low;close;adj_close;volume;ema_200p;ema_200p_diff;s_open_time;type;ema_adj_close_200p;ema_adj_close_200p_diff;ema_close_200p;ema_close_200p_diff
+1687788000000;MMPD11.SA;110.61;110.61;110.61;110.61;110.61;0;;;2023-06-26 11:00:00-03:00;fii;;;;
+1687791600000;MMPD11.SA;110.61;110.61;110.61;110.61;110.61;71;;;2023-06-26 12:00:00-03:00;fii;;;;
+1687798800000;MMPD11.SA;110.61;110.61;110.61;110.61;110.61;80;;;2023-06-26 14:00:00-03:00;fii;;;;

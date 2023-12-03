@@ -1,0 +1,4 @@
+open_time;ticker;open;high;low;close;adj_close;volume;ema_200p;ema_200p_diff;s_open_time;type;ema_adj_close_200p;ema_adj_close_200p_diff;ema_close_200p;ema_close_200p_diff
+1662400800000;MAPT3.SA;37.5;37.5;37.5;37.5;37.5;0;;;;stocks;;;;
+1678197600000;MAPT3.SA;30.05;30.05;30.05;30.05;30.05;100;;;;stocks;;;;
+1687183200000;MAPT3.SA;30.05;30.05;30.05;30.05;30.05;0;;;2023-06-19 11:00:00-03:00;stocks;;;;
