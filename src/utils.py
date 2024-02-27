@@ -3,6 +3,7 @@
 # Linkedin: https://www.linkedin.com/in/marcelolimagomes/
 # Github: https://github.com/marcelolimagomes
 # Date: 2023-11-20
+
 import sys
 import pandas as pd
 import numpy as np
@@ -39,8 +40,8 @@ def get_data_files():
     return file_list
 
 
-def download_data(ticker_list: list, start_date: str = None, type='stock'):
-    print(f"Downloading data for {len(ticker_list)} tickers...")
+def download_data(ticker_list: list, start_date: str = None, ticker_type='stock'):
+    print(f"Downloading data para {len(ticker_list)} tickers...")
     for ticker in ticker_list:
         filename = f"{stocks_dir}/{ticker}.csv"
         max_date = start_date
@@ -48,13 +49,13 @@ def download_data(ticker_list: list, start_date: str = None, type='stock'):
         if file_exists:
             data = pd.read_csv(f"{stocks_dir}/{ticker}.csv", sep=";")
             if data.shape[0] > 0:
-                data.info()
-                print('data["open_time"].max()', data["open_time"].max())
+                # data.info()
+                print('open_time->max:', data["open_time"].max())
                 max_date = pd.to_datetime(data["open_time"].max(), unit='ms').strftime("%Y-%m-%d")
         else:
             data = pd.DataFrame()
 
-        print(f"Downloading data for {ticker} ==> Max date: {max_date}")
+        print(f"Downloading data para o ticker: {ticker} ==> Max date: {max_date}")
         if max_date is None:
             downloaded_data = yf.download(ticker, auto_adjust=False, threads=20)
         else:
@@ -71,10 +72,11 @@ def download_data(ticker_list: list, start_date: str = None, type='stock'):
                 downloaded_data.insert(0, "open_time", np.int64(downloaded_data.index.values.astype(np.int64) / 1000000))
                 downloaded_data.insert(0, "s_open_time", downloaded_data.index)
 
-            print(f"Downloaded data for {ticker} ==> Shape: {downloaded_data.shape}")
+            print(f"Downloaded data para o ticker: {ticker} ==> Shape: {downloaded_data.shape}")
             data = pd.concat([data, downloaded_data], ignore_index=True)
+            data.sort_values(by="open_time", inplace=True)
             data.drop_duplicates(subset=["open_time"], keep="last", inplace=True)
-            data['type'] = type
+            data['ticker_type'] = ticker_type
             data.to_csv(filename, index=False, sep=";")
             print(f"Data saved to {filename}")
 

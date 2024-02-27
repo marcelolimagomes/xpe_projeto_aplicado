@@ -1,5 +1,0 @@
-open_time;ticker;open;high;low;close;adj_close;volume;ema_200p;ema_200p_diff;s_open_time;type;ema_adj_close_200p;ema_adj_close_200p_diff;ema_close_200p;ema_close_200p_diff
-1638817200000;MSPA3.SA;48.5;48.5;48.5;48.5;48.5;0;;;;stocks;;;;
-1647273600000;MSPA3.SA;48.5;48.5;48.5;48.5;48.5;0;;;;stocks;;;;
-1647280800000;MSPA3.SA;48.5;48.5;48.5;48.5;48.5;100;;;;stocks;;;;
-1647352800000;MSPA3.SA;49.5;49.5;49.5;49.5;49.5;0;;;2022-03-15 11:00:00-03:00;stocks;;;;

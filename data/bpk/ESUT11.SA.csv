@@ -1,5 +1,0 @@
-open_time;ticker;open;high;low;close;adj_close;volume;ema_200p;ema_200p_diff;s_open_time;type;ema_adj_close_200p;ema_adj_close_200p_diff;ema_close_200p;ema_close_200p_diff
-1681837200000;ESUT11.SA;81.01;81.01;81.01;81.01;81.01;0;;;;fii;;;;
-1681840800000;ESUT11.SA;81.02;1350.0;81.02;81.02;81.02;200;;;;fii;;;;
-1694530800000;ESUT11.SA;18.0;81.02;18.0;18.0;18.0;0;;;;fii;;;;
-1698073200000;ESUT11.SA;17.0;17.0;17.0;17.0;17.0;0;;;2023-10-23 12:00:00-03:00;fii;;;;

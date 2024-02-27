@@ -1,4 +1,0 @@
-open_time;ticker;open;high;low;close;adj_close;volume;ema_200p;ema_200p_diff;s_open_time;type;ema_adj_close_200p;ema_adj_close_200p_diff;ema_close_200p;ema_close_200p_diff
-1646420400000;ECPR4.SA;90.0;90.0;90.0;90.0;90.0;0;;;;stocks;;;;
-1647025200000;ECPR4.SA;90.36;90.36;90.36;90.36;90.36;100;;;;stocks;;;;
-1648234800000;ECPR4.SA;90.74;90.74;90.74;90.74;90.74;0;;;2022-03-25 16:00:00-03:00;stocks;;;;

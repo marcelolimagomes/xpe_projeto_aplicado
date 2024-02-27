@@ -1,2 +1,0 @@
-open_time;ticker;open;high;low;close;adj_close;volume;ema_200p;ema_200p_diff;rsi;previsao;s_open_time;type;ema_adj_close_200p;ema_adj_close_200p_diff;ema_close_200p;ema_close_200p_diff
-1701100800000;CALI3.SA;15.5;15.5;15.5;15.5;15.5;100;10.27;50.91;66.08;ESTAVEL;2023-11-27 16:00:00;stocks;;;;

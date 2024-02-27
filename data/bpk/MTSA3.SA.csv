@@ -1,5 +1,0 @@
-open_time;ticker;open;high;low;close;adj_close;volume;ema_200p;ema_200p_diff;s_open_time;type;ema_adj_close_200p;ema_adj_close_200p_diff;ema_close_200p;ema_close_200p_diff
-1652806800000;MTSA3.SA;70.0;70.0;64.5;70.0;70.0;0;;;;stocks;;;;
-1673460000000;MTSA3.SA;75.0;75.0;69.23;75.0;75.0;0;;;;stocks;;;;
-1692205200000;MTSA3.SA;77.0;77.0;75.0;77.0;77.0;0;;;;stocks;;;;
-1696615200000;MTSA3.SA;79.0;79.0;77.0;79.0;79.0;0;;;2023-10-06 15:00:00-03:00;stocks;;;;

@@ -1,4 +1,0 @@
-s_open_time;open_time;ticker;open;high;low;close;adj_close;volume;type;ema_adj_close_200p;ema_adj_close_200p_diff;ema_close_200p;ema_close_200p_diff;rsi;previsao
-2023-11-28;1701129600000;SNID11.SA;102.14;102.14;102.01;102.1;102.1;1683;fii;98.03;4.15;101.18;0.91;89.0;CAIR
-2023-11-29;1701216000000;SNID11.SA;102.19;102.19;102.18;102.19;102.19;1202;fii;98.08;4.19;101.19;0.98;89.61;CAIR
-2023-11-30;1701302400000;SNID11.SA;102.2;102.29;102.2;102.29;102.29;3043;fii;98.13;4.24;101.21;1.07;90.26;CAIR

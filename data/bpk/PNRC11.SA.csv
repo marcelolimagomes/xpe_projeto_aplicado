@@ -1,3 +1,0 @@
-open_time;ticker;open;high;low;close;adj_close;volume;ema_200p;ema_200p_diff;s_open_time;type;ema_adj_close_200p;ema_adj_close_200p_diff;ema_close_200p;ema_close_200p_diff
-1688752800000;PNRC11.SA;101.09;101.09;101.09;101.09;101.09;0;;;;fii;;;;
-1693843200000;PNRC11.SA;101.69;101.69;101.09;101.69;101.69;0;;;2023-09-04 13:00:00-03:00;fii;;;;
